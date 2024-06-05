@@ -1,0 +1,22 @@
+.card {
+  width: 220px;
+  height: 250px;
+  border: 1px solid black;
+  border-radius: 10px;
+  margin: 5px;
+  padding: 20px;
+  display: flex;
+  flex-direction: column;
+  gap: 20px;
+}
+
+.card div {
+  display: flex;
+  gap: 5px;
+}
+
+.card h3 {
+  font-size: medium;
+  font-weight: 700;
+  white-space: nowrap;
+}
